@@ -14,6 +14,15 @@ app.use(express.static('public'))
 app.set('view engine', 'pug');
 
 //routes
-app.get('/', (req, res) => {
-  res.render('index')
+app.get('/orbit', (req, res) => {
+  res.render('orbit')
 })
+
+app.get('/liquid', (req, res) => {
+  res.render('liquid_transition')
+})
+
+app.get('/scrolltrigger', (req, res) => {
+  res.render('scrolltrigger')
+})
+

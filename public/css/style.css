@@ -29,7 +29,7 @@ body{
 
 /* scroll trigger */
 
-.div1, .div2, .div3, .div4{
+.div1, .div2, .div3, .div4, .div5, .div6, .div7, .div8, .div9{
   height: 100vh;
 }
 
@@ -47,6 +47,18 @@ body{
 
 .div4{
   background-color: rgb(138, 49, 39);
+}
+
+.div5{
+  background-color: rgb(50, 135, 232);
+}
+
+.div6{
+  background-color: rgb(25, 211, 118);
+}
+
+.div7{
+  background-color: rgb(149, 203, 0);
 }
 
 .square{
@@ -75,5 +87,44 @@ body{
 }
 
 .red{
+  background-color: red;
+}
+
+.square5{
+  width: 150px;
+  height: 150px;
+  background-color: rgb(229, 255, 0);
+}
+
+.square6{
+  width: 150px;
+  height: 150px;
+  background-color: rgb(255, 0, 221);
+}
+
+.square7{
+  width: 150px;
+  height: 150px;
+  background-color: rgb(40, 62, 104);
+}
+
+.square8{
+  width: 150px;
+  height: 150px;
+  background-color: rgb(16, 173, 10);
+}
+
+.box, .box2{
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+}
+
+.panel, .panel2{
+  height: 100vh;
+  background-color: pink;
+}
+
+.box2-red{
   background-color: red;
 }

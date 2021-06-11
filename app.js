@@ -26,3 +26,7 @@ app.get('/scrolltrigger', (req, res) => {
   res.render('scrolltrigger')
 })
 
+app.get('/landingpage', (req, res) => {
+  res.render('landingpage')
+})
+

@@ -1,0 +1,56 @@
+extends layout
+
+block content
+
+  link(rel='stylesheet', href='/css/landingpage.css')
+
+  .wrapper 
+    //- overlay
+    .overlay.first 
+    .overlay.second 
+    .overlay.third 
+
+    //- navar
+    nav.navbar 
+      .menu 
+        ion-icon(name='ios-menu')
+        .lang eng 
+        .search 
+          ion-icon(name='ios-search')
+
+    //- social media
+    .media 
+      ul 
+        li facebook 
+        li instagram 
+        li twitter 
+    
+    //- text
+    .text 
+      h1 
+        span.hidetext toni&guy 
+      h2 duality 
+      h3
+        span.hidetext collection 2017 
+          br 
+          | duality 
+      p 
+        span.hidetext 
+          | Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde quis, delectus facere
+          | neque sunt commodi quae
+          | culpa dolores doloribus magnam?
+        
+    //- sponsor
+    .sponsor 
+      img(src="../images/landingpage/sponsor-logo.png" alt="")
+      p official sponsor 
+    
+    //- distortion
+    .distortion
+
+  //- icon 
+  script(src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js")
+  script(src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js" integrity="sha512-8Wy4KH0O+AuzjMm1w5QfZ5j5/y8Q/kcUktK9mPUVaUoBvh3QPUZB822W/vy7ULqri3yR8daH3F58+Y8Z08qzeg==" crossorigin="anonymous" referrerpolicy="no-referrer")
+  script(src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js" integrity="sha512-dLxUelApnYxpLt6K2iomGngnHO83iUvZytA3YjDUCjT0HDOHKXnVYdf3hU4JjM8uEhxf9nD1/ey98U3t2vZ0qQ==" crossorigin="anonymous" referrerpolicy="no-referrer")
+  script(src='/js/vendor/hover.js')
+  script(type="text/javascript" src='/js/landingpage.js')

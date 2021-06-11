@@ -30,3 +30,6 @@ app.get('/landingpage', (req, res) => {
   res.render('landingpage')
 })
 
+app.get('/hoverlist', (req, res) => {
+  res.render('hoverlist')
+})

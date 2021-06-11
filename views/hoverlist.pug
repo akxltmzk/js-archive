@@ -1,0 +1,40 @@
+extends layout
+
+block content
+
+  link(rel='stylesheet', href='/css/hoverlist.css')
+  .navigation-wrapper
+    .project-preview-wrapper
+      .project-preview
+    ul.navigation-list
+      li.navigation-item
+        a.navigation-link.navigation-link-1(href='#')
+          span(data-text='Mouthwash') Mouthwash
+      .project-overlay
+      li.navigation-item
+        a.navigation-link.navigation-link-2(href='#')
+          span(data-text='Offbeat') Offbeat
+      li.navigation-item
+        a.navigation-link.navigation-link-3(href='#')
+          span(data-text='Expansions') Expansions
+      li.navigation-item
+        a.navigation-link.navigation-link-4(href='#')
+          span(data-text='Canals') Canals
+      li.navigation-item
+        a.navigation-link.navigation-link-5(href='#')
+          span(data-text='Asterisks') Asterisks
+      li.navigation-item
+        a.navigation-link.navigation-link-6(href='#')
+          span(data-text='Charger') Charger
+      li.navigation-item
+        a.navigation-link.navigation-link-7(href='#')
+          span(data-text='Unclocked') Unclocked
+      li.navigation-item
+        a.navigation-link.navigation-link-8(href='#')
+          span(data-text='Craft') Craft
+  .progressbar
+
+  
+
+  script(src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js" integrity="sha512-8Wy4KH0O+AuzjMm1w5QfZ5j5/y8Q/kcUktK9mPUVaUoBvh3QPUZB822W/vy7ULqri3yR8daH3F58+Y8Z08qzeg==" crossorigin="anonymous" referrerpolicy="no-referrer")
+  script(type="text/javascript" src='/js/hoverlist.js')

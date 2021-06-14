@@ -43,7 +43,6 @@ t1.from(".mail", 1, {
   ease: Power3.easeInOut
 });
 
-t1.reverse();
 
 $(document).on("click", ".menu-btn", function() {
   t1.reversed(!t1.reversed());

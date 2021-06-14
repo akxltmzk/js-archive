@@ -1,5 +1,6 @@
 let project_preview = document.querySelector('.project-preview')
 let navigation_item_all = document.querySelectorAll('.navigation-item')
+let progressbar = document.querySelectorAll('.progressbar')
 let navigation_link_1 = document.querySelector('.navigation-link-1')
 let navigation_link_2 = document.querySelector('.navigation-link-2')
 let navigation_link_3 = document.querySelector('.navigation-link-3')
@@ -69,10 +70,23 @@ navigation_link_8.addEventListener('mouseover',function(){
 })
 
 
-// window.addEventListener('scroll',function(){
-//   let scroll = $(window).scrollTop(),
-//     dh = document.height(),
-//     wh = window.height();
+window.addEventListener('scroll',function(){
+  console.log(235);
+  let body = document.body
+  let html = document.documentElement
+  let dh = Math.max( body.scrollHeight, body.offsetHeight, html.clientHeight, html.scrollHeight, html.offsetHeight )
+  // let scroll =  window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
+
+  // let dh = document.height
+  // let wh = window.height
+  // let scrollPercent = (scroll / (dh - wh)) * 100
+  // progressbar.style.height = scrollPercent +'%'
+})
+
+// $(window).scroll(function() {
+//   var scroll = $(window).scrollTop(),
+//     dh = $(document).height(),
+//     wh = $(window).height();
 //   scrollPercent = (scroll / (dh - wh)) * 100;
 //   $(".progressbar").css("height", scrollPercent + "%");
-// })
+// });

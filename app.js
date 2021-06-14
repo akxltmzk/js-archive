@@ -33,3 +33,7 @@ app.get('/landingpage', (req, res) => {
 app.get('/hoverlist', (req, res) => {
   res.render('hoverlist')
 })
+
+app.get('/navbar', (req, res) => {
+  res.render('navbar')
+})

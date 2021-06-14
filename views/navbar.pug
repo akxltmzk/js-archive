@@ -1,0 +1,70 @@
+extends layout
+
+block content
+
+  link(rel='stylesheet', href='/css/navbar.css')
+  link(href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i&display=swap" rel="stylesheet")
+  .wrapper
+    .hero-section
+      h1 Responsive Drop-down Menu Concept
+      .menu-btn
+        ion-icon(name='menu')
+    .menu
+      .close-menu
+        ion-icon(name='close')
+      .nav
+        ul.main-menu
+          li.main-menu-item
+            a(href='#') Home
+          li.main-menu-item
+            a(href='#')
+              | Our Products &nbsp; 
+              ion-icon(name='add')
+            ul.submenu
+              li.submenu-item
+                a(href='#') Fonts
+              li.submenu-item
+                a(href='#') Mockups
+              li.submenu-item
+                a(href='#') Presets
+          li.main-menu-item
+            a(href='#')
+              | Portfolio &nbsp; 
+              ion-icon(name='add')
+            ul.submenu
+              li.submenu-item
+                a(href='#') Timeless flow
+              li.submenu-item
+                a(href='#') Foretime
+              li.submenu-item
+                a(href='#') Never again
+              li.submenu-item
+                a(href='#') Departure
+          li.main-menu-item
+            a(href='#') Our Story
+          li.main-menu-item
+            a(href='#')
+              | Contact &nbsp; 
+              ion-icon(name='add')
+            ul.submenu
+              li.submenu-item
+                a(href='#') Call now
+              li.submenu-item
+                a(href='#') Mail us
+      .contact
+        p.call
+          ion-icon(name='call')
+          | &nbsp;&nbsp;&nbsp;+91 29000 23000
+        p.mail
+          ion-icon(name='mail')
+          | &nbsp;&nbsp;&nbsp;codegridweb@gmail.com
+      .media
+        ul
+          li Facebook
+          li Instagram
+          li Twitter
+
+  script(src="https://code.jquery.com/jquery-3.4.1.js")
+  script(src="https://unpkg.com/ionicons@4.5.5/dist/ionicons.js")
+  script(src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js")
+  script(type="text/javascript" src='/js/navbar.js')

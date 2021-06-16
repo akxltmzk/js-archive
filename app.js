@@ -37,3 +37,7 @@ app.get('/hoverlist', (req, res) => {
 app.get('/navbar', (req, res) => {
   res.render('navbar')
 })
+
+app.get('/parallax', (req, res) => {
+  res.render('parallax')
+})

@@ -49,3 +49,7 @@ app.get('/imageparallax', (req, res) => {
 app.get('/imageparallax2', (req, res) => {
   res.render('imageparallax2')
 })
+
+app.get('/videoscroll', (req, res) => {
+  res.render('videoscroll')
+})

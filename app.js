@@ -41,3 +41,11 @@ app.get('/navbar', (req, res) => {
 app.get('/parallax', (req, res) => {
   res.render('parallax')
 })
+
+app.get('/imageparallax', (req, res) => {
+  res.render('imageparallax')
+})
+
+app.get('/imageparallax2', (req, res) => {
+  res.render('imageparallax2')
+})

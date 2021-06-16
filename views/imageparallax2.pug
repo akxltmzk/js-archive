@@ -1,0 +1,49 @@
+extends layout
+
+block content
+
+  link(rel='stylesheet', href='/css/imageparallax2.css')
+  link(rel='stylesheet',  href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css")
+
+  .whitespace
+  .container
+    .row
+      .col-lg-4.img.one
+        img.ione(src='../images/imageparallax2/01.jpg' alt='')
+      .col-lg-3.txt.text-1
+        h1 whitespace is like air.
+    .row
+      .col-lg-8.txt.text-2
+        h1
+          | it is necessary for 
+          br
+          |  a design to breathe.
+      .col-lg-4.img.two
+        img.itwo(src='../images/imageparallax2/04.jpg' alt='')
+    .container-fluid
+      .row
+        .col-lg-12.img.three
+          img.ithree(src='../images/imageparallax2/left1.png' alt='')
+    .row
+      .col-lg-4.img.four
+        img.ifour(src='../images/imageparallax2/07.jpg' alt='')
+      .col-lg-3.txt.text-3
+        h1 whitespace is like air.
+    .row
+      .col-lg-8.txt.text-4
+        h1
+          | it is necessary for 
+          br
+          |  a design to breathe.
+      .col-lg-4.img.five
+        img.ifive(src='../images/imageparallax2/10.jpg' alt='')
+    .container-fluid
+      .row
+        .col-lg-12.img.six
+          img.isix(src='../images/imageparallax2/left2.png' alt='')
+
+
+
+  script(src="https://cdn.jsdelivr.net/npm/simple-parallax-js@5.6.1/dist/simpleParallax.min.js")
+  script(src="https://code.jquery.com/jquery-3.4.1.js")
+  script(type="text/javascript" src='/js/imageparallax2.js')

@@ -9,7 +9,7 @@ $('ul.main-menu li').click(function(e) {
 
 var t1 = new TimelineMax({paused: true});
 
-t1.to(".menu", 0.8, {
+t1.to(".menu", 0.3, {
   autoAlpha: 1
 });
 
@@ -36,7 +36,7 @@ t1.from(".call", 1, {
   ease: Power3.easeInOut
 });
 
-t1.from(".mail", 1, {
+t1.from(".mail", 0.5, {
   delay: -1.6,
   opacity: 0,
   y: 10,
